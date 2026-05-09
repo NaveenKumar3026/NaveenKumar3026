@@ -1,202 +1,238 @@
-<h1 align="center">Hi 👋, I'm Naveen Kumar</h1>
+# Enhanced GitHub Profile README for NaveenKumar3026
 
-<h3 align="center">
-Computer Science Student • Full Stack Developer • Tech Enthusiast
-</h3>
+```md
+<div align="center">
 
----
+# Hi 👋, I'm Naveen Kumar
 
-# 👨‍💻 About Me
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Full+Stack+Developer;Java+%7C+React+%7C+Spring+Boot;Always+Building+and+Learning" alt="Typing SVG" />
 
-- 🎓 Computer Science student passionate about software development and problem solving
-- 🌱 Currently learning:
-  - System Design
-  - Spring Boot
-  - Full Stack Development
-  - Computer Architecture
+<br>
 
-- 💡 Interested in:
-  - Web Development
-  - UI/UX
-  - Visualization Projects
-  - Open Source
+<img src="https://komarev.com/ghpvc/?username=NaveenKumar3026&label=Profile+Views&color=0e75b6&style=for-the-badge" />
 
-- ⚡ Fun Fact:
-  - "I debug more than I code 😄"
+</div>
 
 ---
 
-# 🌐 Connect With Me
+<div align="center">
 
-<p align="left">
+## 🚀 About Me
 
+</div>
+
+<table align="center">
+<tr>
+<td>
+
+🎓 **Education:** Pursuing BE Computer Science at **MIT Campus, Anna University**
+
+🌱 **Currently Learning:**
+- System Design
+- Spring Boot
+- Full Stack Development
+
+💡 **Interests:**
+- Web Development
+- UI/UX
+- Visualization Projects
+- Open Source
+
+💬 **Ask me about:**
+- Java
+- React
+- Spring Boot
+- Full Stack Development
+
+⚡ **Fun Fact:**
+> *"I debug more than I code 😄"*
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🌐 Connect With Me
+
+<p>
 <a href="https://www.linkedin.com/in/naveen-kumar191206" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin" height="50"/>
+<img src="https://skillicons.dev/icons?i=linkedin" height="55" />
 </a>
 
 <a href="mailto:naveenhearty77@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="50"/>
+<img src="https://skillicons.dev/icons?i=gmail" height="55" />
 </a>
 
 <a href="mailto:naveen3026mit@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="50"/>
+<img src="https://skillicons.dev/icons?i=gmail" height="55" />
 </a>
-
 </p>
+
+</div>
 
 ---
 
-# 🚀 Tech Stack
+<div align="center">
 
-## 💻 Programming Languages
+## 🛠️ Tech Stack
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript" />
-</p>
+</div>
 
----
+<table align="center">
 
-## 🎨 Frontend Development
+<tr>
+<th>Category</th>
+<th>Technologies</th>
+</tr>
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,react" />
-</p>
+<tr>
+<td><b>💻 Languages</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=c,cpp,python,java,javascript" />
+</td>
+</tr>
 
----
+<tr>
+<td><b>🎨 Frontend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=react,html,css,bootstrap,tailwind" />
+</td>
+</tr>
 
-## ⚙️ Backend Development
-
-<p>
+<tr>
+<td><b>⚙️ Backend</b></td>
+<td>
 <img src="https://skillicons.dev/icons?i=nodejs,express,spring" />
-</p>
+</td>
+</tr>
+
+<tr>
+<td><b>🗄️ Database</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+</td>
+</tr>
+
+<tr>
+<td><b>🛠️ Tools</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma" />
+</td>
+</tr>
+
+</table>
 
 ---
 
-## 🗄️ Databases
+<div align="center">
 
-<p>
-<img src="https://skillicons.dev/icons?i=mysql" />
-</p>
+## 📌 Featured Projects
 
-<p>
-<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
-</p>
+</div>
 
----
+<table>
+<tr>
+<td width="50%">
 
-## 🛠️ Tools & Platforms
+### 🏋️ Fitness Tracker App
+- Track calories and workouts
+- Dashboard analytics
+- Food calorie tracking
+- Daily fitness goals
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
-</p>
+</td>
 
----
+<td width="50%">
 
-# 📌 Featured Projects
+### ☕ Mini Java Visualizer
+- Java execution visualizer
+- Understand Java concepts
+- Interactive learning approach
 
-## 🏋️ Fitness Tracker App
-- Track calories, workouts, and fitness goals
-- Dashboard analytics and overview pages
-- Food tracking with calorie calculations
+</td>
+</tr>
 
----
+<tr>
+<td width="50%">
 
-## ☕ Mini Java Visualizer
-- Visual representation of Java concepts
-- Helps understand execution flow and logic
+### 🏏 Cricket Stats
+- Match statistics management
+- Player performance analysis
+- Cricket analytics dashboard
 
----
+</td>
 
-## 🏏 Cricket Stats
-- Cricket statistics management system
-- Match and player performance analysis
+<td width="50%">
 
----
+### 🌐 Internet Activity Visualizer
+- Activity analytics interface
+- Visual internet tracking
+- Interactive visualizations
 
-## 🌐 Internet Activity Visualizer
-- Visualizes internet or browsing activity
-- Interactive analytics and tracking interface
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img 
-src="https://github-readme-stats.vercel.app/api?username=NaveenKumar3026&show_icons=true&theme=tokyonight&hide_border=true" 
-height="180"
-/>
-
-<img 
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenKumar3026&layout=compact&theme=tokyonight&hide_border=true" 
-height="180"
-/>
-
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
-# 🔥 GitHub Streak
+<div align="center">
 
-<p align="center">
+## 📊 GitHub Stats
 
-<img 
-src="https://github-readme-streak-stats.herokuapp.com/?user=NaveenKumar3026&theme=tokyonight&hide_border=true" 
-/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NaveenKumar3026&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
 
-</p>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenKumar3026&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
 
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img 
-src="https://github-profile-trophy.vercel.app/?username=NaveenKumar3026&theme=radical&row=1&column=7" 
-/>
-
-</p>
+</div>
 
 ---
 
-# 📈 Contribution Graph
+<div align="center">
 
-<p align="center">
+## 🔥 GitHub Streak
 
-<img 
-src="https://github-readme-activity-graph.vercel.app/graph?username=NaveenKumar3026&theme=tokyo-night" 
-/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NaveenKumar3026&theme=tokyonight&hide_border=true" />
 
-</p>
+</div>
 
 ---
 
-# 💭 Developer Quote
+<div align="center">
 
-<p align="center">
+## 🏆 GitHub Trophies
 
-<img 
-src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" 
-/>
+<img src="https://github-profile-trophy.vercel.app/?username=NaveenKumar3026&theme=radical&no-frame=true&margin-w=10&margin-h=10" />
 
-</p>
+</div>
 
 ---
 
-# 👀 Profile Views
+<div align="center">
 
-<p align="left">
+## 📈 Contribution Graph
 
-<img 
-src="https://komarev.com/ghpvc/?username=NaveenKumar3026&label=Profile%20Views&color=0e75b6&style=flat" 
-/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NaveenKumar3026&theme=tokyo-night&hide_border=true" width="95%" />
 
-</p>
+</div>
 
 ---
 
-<h3 align="center">
-⭐ Thanks for visiting my profile ⭐
-</h3>
+<div align="center">
+
+## 💭 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile ⭐
+
+</div>
+```
