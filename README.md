@@ -1,3 +1,4 @@
+```md
 <h1 align="center">Hi 👋, I'm Naveen Kumar</h1>
 
 <h3 align="center">
@@ -141,7 +142,6 @@ Full Stack Developer • Java Enthusiast • Problem Solver
 
 ---
 
-```md
 # 📊 GitHub Stats
 
 <p align="center">
@@ -155,7 +155,8 @@ height="180em"
 src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NaveenKumar3026&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
 </p>
-```
+
+---
 
 # 🔥 GitHub Streak
 
@@ -220,3 +221,4 @@ src="https://komarev.com/ghpvc/?username=NaveenKumar3026&label=Profile%20Views&c
 <h3 align="center">
 ⭐ Thanks for visiting my profile ⭐
 </h3>
+```
