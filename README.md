@@ -1,4 +1,3 @@
-```md
 <h1 align="center">Hi 👋, I'm Naveen Kumar</h1>
 
 <h3 align="center">
@@ -221,4 +220,3 @@ src="https://komarev.com/ghpvc/?username=NaveenKumar3026&label=Profile%20Views&c
 <h3 align="center">
 ⭐ Thanks for visiting my profile ⭐
 </h3>
-```
