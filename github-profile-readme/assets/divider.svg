@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="divGradLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#00E5FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="divGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .div-mono {
+      font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <!-- Left Line -->
+  <line x1="40" y1="12" x2="380" y2="12" stroke="url(#divGradLeft)" stroke-width="1.5"/>
+  <circle cx="380" cy="12" r="2.5" fill="#00E5FF" filter="url(#divGlow)"/>
+
+  <!-- Center HUD Diamond & Text -->
+  <g transform="translate(430, 12)">
+    <polygon points="-36,-8 -44,0 -36,8 -28,0" fill="#0c1224" stroke="#00E5FF" stroke-width="1.2"/>
+    <circle cx="-36" cy="0" r="2" fill="#00E5FF"/>
+
+    <rect x="-20" y="-9" width="40" height="18" rx="4" fill="#080B16" stroke="#3B82F6" stroke-width="1"/>
+    <text x="0" y="3.5" class="div-mono" fill="#F8FAFC" text-anchor="middle">&lt; / &gt;</text>
+
+    <polygon points="36,-8 28,0 36,8 44,0" fill="#0c1224" stroke="#A855F7" stroke-width="1.2"/>
+    <circle cx="36" cy="0" r="2" fill="#A855F7"/>
+  </g>
+
+  <!-- Right Line -->
+  <circle cx="480" cy="12" r="2.5" fill="#A855F7" filter="url(#divGlow)"/>
+  <line x1="480" y1="12" x2="820" y2="12" stroke="url(#divGradRight)" stroke-width="1.5"/>
+</svg>

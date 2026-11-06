@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 56" width="100%" height="56">
+  <defs>
+    <linearGradient id="headerGrad02" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="lineGrad02" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#A855F7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+    }
+    .badge-mono {
+      font-family: 'SF Mono', Monaco, 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <!-- Tag Pill -->
+  <rect x="0" y="10" width="48" height="36" rx="8" fill="#0A1329" stroke="#00E5FF" stroke-width="1.2"/>
+  <text x="24" y="33" class="badge-mono" fill="#00E5FF" text-anchor="middle">02</text>
+
+  <!-- Title Text -->
+  <text x="64" y="34" class="title-text" fill="#F8FAFC">
+    TECHNICAL ARSENAL <tspan fill="#64748B">//</tspan> <tspan fill="url(#headerGrad02)">CORE CAPABILITIES</tspan>
+  </text>
+
+  <!-- Trailing Futuristic Line -->
+  <line x1="560" y1="28" x2="850" y2="28" stroke="url(#lineGrad02)" stroke-width="1.5"/>
+  <circle cx="560" cy="28" r="2.5" fill="#A855F7"/>
+  <rect x="850" y="26" width="10" height="4" fill="#00E5FF" opacity="0.6"/>
+</svg>
