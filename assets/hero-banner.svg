@@ -9,35 +9,50 @@
 
     <!-- Glassmorphic Border Gradient -->
     <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8"/>
-      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.5"/>
-      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.9"/>
     </linearGradient>
 
-    <!-- Glassmorphism Specular Highlight -->
+    <!-- Glassmorphism Specular Fill -->
     <linearGradient id="glassFill" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.03"/>
     </linearGradient>
 
-    <!-- Neon Accents -->
-    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#3B82F6"/>
-      <stop offset="100%" stop-color="#A855F7"/>
+    <!-- Animated Specular Shimmer Gradient -->
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Laser Tracer Gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.7"/>
-      <stop offset="25%" stop-color="#3B82F6" stop-opacity="0.2"/>
-      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.8"/>
     </linearGradient>
 
     <!-- Glow Filter -->
     <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="laserGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -52,62 +67,118 @@
   </defs>
 
   <style>
-    @keyframes radarSpin {
+    /* Continuous Laser Border Sweep */
+    @keyframes laserSweepTop {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(860px); }
+    }
+    @keyframes laserSweepBottom {
+      0% { transform: translateX(860px); }
+      100% { transform: translateX(-400px); }
+    }
+
+    /* Radar Animations */
+    @keyframes radarSpinCW {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.2; }
+    @keyframes radarSpinCCW {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
     }
-    /* Glassomorphic Name Color Transition / Breathing Glow */
+    @keyframes orbitPulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.3); opacity: 1; }
+    }
+
+    /* Glassmorphic Name Color Transition */
     @keyframes glassNameBlink {
       0%, 100% {
         fill: #00E5FF;
-        filter: drop-shadow(0 0 10px rgba(0, 229, 255, 0.9)) drop-shadow(0 0 24px rgba(168, 85, 247, 0.4));
+        filter: drop-shadow(0 0 10px rgba(0, 229, 255, 0.95)) drop-shadow(0 0 24px rgba(168, 85, 247, 0.4));
         opacity: 1;
       }
-      30% {
+      25% {
         fill: #A855F7;
         filter: drop-shadow(0 0 14px rgba(168, 85, 247, 0.95)) drop-shadow(0 0 28px rgba(0, 229, 255, 0.5));
-        opacity: 0.95;
+        opacity: 0.96;
       }
-      60% {
-        fill: #F8FAFC;
-        filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 32px rgba(0, 229, 255, 0.6));
+      50% {
+        fill: #FFFFFF;
+        filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 32px rgba(0, 229, 255, 0.6));
         opacity: 1;
       }
-      85% {
+      75% {
         fill: #38BDF8;
-        filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.85)) drop-shadow(0 0 24px rgba(168, 85, 247, 0.5));
-        opacity: 0.92;
+        filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.9)) drop-shadow(0 0 24px rgba(168, 85, 247, 0.5));
+        opacity: 0.94;
       }
     }
+
+    /* Glass Specular Light Sweep */
+    @keyframes specularPass {
+      0% { transform: translateX(-480px); }
+      50%, 100% { transform: translateX(480px); }
+    }
+
+    /* Glass Plate Breathing Glow */
     @keyframes glassBackdropPulse {
       0%, 100% {
-        stroke-opacity: 0.4;
+        stroke-opacity: 0.45;
         fill-opacity: 0.08;
       }
       50% {
-        stroke-opacity: 0.85;
-        fill-opacity: 0.18;
+        stroke-opacity: 0.9;
+        fill-opacity: 0.2;
       }
+    }
+
+    /* Status Dot Blink */
+    @keyframes statusBlink {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.25; transform: scale(0.85); }
+    }
+
+    /* Ambient Scanline */
+    @keyframes scanlineAnim {
+      0% { transform: translateY(-20px); opacity: 0; }
+      15% { opacity: 0.6; }
+      85% { opacity: 0.6; }
+      100% { transform: translateY(270px); opacity: 0; }
+    }
+
+    .laser-top {
+      animation: laserSweepTop 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .laser-bottom {
+      animation: laserSweepBottom 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .radar-ring-cw {
+      transform-origin: 90px 130px;
+      animation: radarSpinCW 9s linear infinite;
+    }
+    .radar-ring-ccw {
+      transform-origin: 90px 130px;
+      animation: radarSpinCCW 5s linear infinite;
     }
     .glass-name {
       animation: glassNameBlink 4s ease-in-out infinite;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', sans-serif;
       font-weight: 900;
-      letter-spacing: 2px;
+      letter-spacing: 2.2px;
     }
     .glass-plate {
       animation: glassBackdropPulse 4s ease-in-out infinite;
     }
-    .radar-ring {
-      transform-origin: 90px 130px;
-      animation: radarSpin 12s linear infinite;
+    .shimmer-light {
+      animation: specularPass 3.5s ease-in-out infinite;
     }
     .status-pulse {
-      animation: blink 2s ease-in-out infinite;
+      transform-origin: 14px 12px;
+      animation: statusBlink 1.8s ease-in-out infinite;
+    }
+    .scanline-beam {
+      animation: scanlineAnim 6s linear infinite;
     }
     .hud-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', sans-serif;
@@ -123,9 +194,14 @@
   <!-- Cyber Grid Overlay -->
   <rect x="2" y="2" width="856" height="256" rx="16" fill="url(#cyberGrid)"/>
 
-  <!-- Top Accent Light Bar -->
-  <line x1="80" y1="2" x2="260" y2="2" stroke="#00E5FF" stroke-width="3" filter="url(#cyanGlow)"/>
-  <line x1="600" y1="2" x2="780" y2="2" stroke="#A855F7" stroke-width="3" filter="url(#cyanGlow)"/>
+  <!-- Moving Ambient Scanline -->
+  <line x1="4" y1="0" x2="856" y2="0" stroke="#00E5FF" stroke-width="1.2" stroke-opacity="0.3" class="scanline-beam"/>
+
+  <!-- Laser Tracers on Border (Surprise Dynamic Effect) -->
+  <g clip-path="url(#borderClip)">
+    <rect x="0" y="2" width="220" height="2.5" fill="url(#laserGrad)" class="laser-top" filter="url(#laserGlow)"/>
+    <rect x="0" y="255.5" width="220" height="2.5" fill="url(#laserGrad)" class="laser-bottom" filter="url(#laserGlow)"/>
+  </g>
 
   <!-- HUD Corner Markers -->
   <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#00E5FF" stroke-width="2"/>
@@ -133,46 +209,52 @@
   <path d="M 14 230 L 14 246 L 30 246" fill="none" stroke="#A855F7" stroke-width="2"/>
   <path d="M 846 230 L 846 246 L 830 246" fill="none" stroke="#A855F7" stroke-width="2"/>
 
-  <!-- Left Futuristic Tech Emblem / Node -->
+  <!-- Left Tech Radar Node -->
   <g transform="translate(15, 0)">
-    <!-- Outer Hex Ring -->
+    <!-- Outer Dual Counter-Rotating Rings -->
     <circle cx="90" cy="130" r="54" fill="none" stroke="#1E293B" stroke-width="2"/>
-    <circle cx="90" cy="130" r="54" fill="none" stroke="#00E5FF" stroke-dasharray="14 8 2 8" stroke-width="2" class="radar-ring"/>
-    <circle cx="90" cy="130" r="42" fill="#0c1427" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.6"/>
+    <circle cx="90" cy="130" r="54" fill="none" stroke="#00E5FF" stroke-dasharray="16 8 2 8" stroke-width="2" class="radar-ring-cw"/>
+    <circle cx="90" cy="130" r="44" fill="none" stroke="#A855F7" stroke-dasharray="8 6 12 4" stroke-width="1.5" class="radar-ring-ccw"/>
+    <circle cx="90" cy="130" r="36" fill="#0C1427" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.7"/>
 
-    <!-- Central Tech Icon: Stylized Dev Circuit Node -->
+    <!-- Central Tech Icon -->
     <g transform="translate(90, 130) scale(0.9)">
-      <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="#080B16" stroke="#00E5FF" stroke-width="2"/>
-      <path d="M -12 -6 L -4 0 L -12 6" fill="none" stroke="#00E5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M 12 -6 L 4 0 L 12 6" fill="none" stroke="#A855F7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="#080B16" stroke="#00E5FF" stroke-width="2"/>
+      <path d="M -11 -5 L -4 0 L -11 5" fill="none" stroke="#00E5FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 11 -5 L 4 0 L 11 5" fill="none" stroke="#A855F7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="0" cy="0" r="3" fill="#3B82F6" filter="url(#cyanGlow)"/>
     </g>
 
-    <!-- Node Ring Decorators -->
-    <circle cx="90" cy="76" r="3" fill="#00E5FF"/>
-    <circle cx="90" cy="184" r="3" fill="#A855F7"/>
+    <!-- Node Ring Orbit Decorators -->
+    <circle cx="90" cy="76" r="3" fill="#00E5FF" filter="url(#cyanGlow)"/>
+    <circle cx="90" cy="184" r="3" fill="#A855F7" filter="url(#cyanGlow)"/>
   </g>
 
   <!-- Right Information Block -->
-  <g transform="translate(195, 30)">
-    <!-- System Telemetry Pill -->
+  <g transform="translate(195, 28)">
+    <!-- System Status Pill -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="220" height="24" rx="12" fill="#0A1329" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="0" y="0" width="200" height="24" rx="12" fill="#0A1329" stroke="#00E5FF" stroke-width="1" stroke-opacity="0.4"/>
       <circle cx="14" cy="12" r="4" fill="#00E5FF" class="status-pulse" filter="url(#cyanGlow)"/>
       <text x="26" y="16" class="mono-text" font-size="10.5" font-weight="600" fill="#00E5FF" letter-spacing="1">SYSTEM: ONLINE // ACTIVE</text>
     </g>
 
-    <!-- Academic Grade Badge (CGPA 9.49) -->
-    <g transform="translate(230, 0)">
-      <rect x="0" y="0" width="200" height="24" rx="12" fill="#131127" stroke="#A855F7" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="14" y="16" class="mono-text" font-size="10.5" font-weight="700" fill="#E9D5FF" letter-spacing="0.8">★ CGPA: 9.49 / 10.0 (MIT)</text>
+    <!-- Academic Institution Badge -->
+    <g transform="translate(210, 0)">
+      <rect x="0" y="0" width="230" height="24" rx="12" fill="#131127" stroke="#A855F7" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="14" y="16" class="mono-text" font-size="10.5" font-weight="700" fill="#E9D5FF" letter-spacing="0.8">B.E. CSE • MIT ANNA UNIVERSITY</text>
     </g>
 
-    <!-- GLASSOMORPHIC NAME CONTAINER -->
+    <!-- GLASSOMORPHIC NAME CONTAINER WITH SPECULAR SWEEP -->
     <g transform="translate(0, 36)">
-      <!-- Frosted Glass Plate Backdrop with Specular Stroke -->
+      <!-- Frosted Glass Plate Backdrop -->
       <rect class="glass-plate" x="-8" y="0" width="460" height="54" rx="12" fill="url(#glassFill)" stroke="url(#glassBorder)" stroke-width="1.5"/>
       
+      <!-- Glass Specular Light Sweep -->
+      <g clip-path="url(#glassPlateClip)">
+        <rect x="-8" y="0" width="100" height="54" fill="url(#shimmerGrad)" class="shimmer-light"/>
+      </g>
+
       <!-- Glassmorphic Blinking Name -->
       <text x="12" y="38" class="glass-name" font-size="36">
         NAVEEN KUMAR S
@@ -186,20 +268,20 @@
 
     <!-- Futuristic Terminal Tags -->
     <g transform="translate(0, 134)">
-      <!-- Terminal Tag 1 -->
-      <rect x="0" y="0" width="180" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
-      <text x="10" y="18" class="mono-text" font-size="11" fill="#38BDF8">⬡ JAVA &amp; SPRING BOOT</text>
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="170" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="18" class="mono-text" font-size="11" fill="#38BDF8">JAVA • SPRING BOOT</text>
 
-      <!-- Terminal Tag 2 -->
-      <rect x="188" y="0" width="185" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
-      <text x="10" y="18" class="mono-text" font-size="11" fill="#00E5FF">⚡ REACT • TS • PYTHON</text>
+      <!-- Tag 2 -->
+      <rect x="178" y="0" width="165" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="18" class="mono-text" font-size="11" fill="#00E5FF">REACT • TS • PYTHON</text>
 
-      <!-- Terminal Tag 3 -->
-      <rect x="381" y="0" width="230" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
-      <text x="10" y="18" class="mono-text" font-size="11" fill="#C084FC">✦ AI SMART GYM &amp; CV</text>
+      <!-- Tag 3 -->
+      <rect x="351" y="0" width="190" height="28" rx="6" fill="#0A1124" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="18" class="mono-text" font-size="11" fill="#C084FC">AI &amp; COMPUTER VISION</text>
     </g>
 
-    <!-- Bottom Geo & Academic Telemetry -->
+    <!-- Bottom Telemetry -->
     <g transform="translate(0, 178)">
       <text x="2" y="12" class="mono-text" font-size="10" fill="#64748B" letter-spacing="0.8">
         MADRAS INSTITUTE OF TECHNOLOGY (MIT), ANNA UNIVERSITY • B.E. CSE • CHENNAI, INDIA
@@ -207,10 +289,18 @@
     </g>
   </g>
 
-  <!-- Ambient Corner Tech Hexagons (Top Right) -->
-  <g transform="translate(770, 24)" fill="none" stroke="#00E5FF" stroke-opacity="0.18" stroke-width="1.5">
+  <!-- Ambient Tech Hexagons (Top Right) -->
+  <g transform="translate(770, 24)" fill="none" stroke="#00E5FF" stroke-opacity="0.2" stroke-width="1.5">
     <polygon points="20,0 40,11.5 40,34.5 20,46 0,34.5 0,11.5"/>
     <polygon points="50,17 70,28.5 70,51.5 50,63 30,51.5 30,28.5"/>
-    <circle cx="20" cy="23" r="3" fill="#00E5FF" fill-opacity="0.3"/>
+    <circle cx="20" cy="23" r="3" fill="#00E5FF" fill-opacity="0.4"/>
   </g>
+
+  <!-- Clip Paths -->
+  <clipPath id="borderClip">
+    <rect x="2" y="2" width="856" height="256" rx="16"/>
+  </clipPath>
+  <clipPath id="glassPlateClip">
+    <rect x="-8" y="0" width="460" height="54" rx="12"/>
+  </clipPath>
 </svg>

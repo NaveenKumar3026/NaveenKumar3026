@@ -7,15 +7,15 @@
 
 <!-- ANIMATED TYPING BANNER -->
 <a href="https://github.com/NaveenKumar3026">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=780&lines=Full-Stack+Software+Engineer+%26+Computer+Vision+Developer;Madras+Institute+of+Technology+(MIT)+•+CGPA+9.49;Architecting+AI+Smart+Gym+Mirror+%26+Computer+Vision+Engines;Specialized+in+Java%2C+Python%2C+C%2B%2B%2C+React+%26+TypeScript" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=780&lines=Full-Stack+Software+Engineer+%26+Systems+Architect;Madras+Institute+of+Technology+(MIT)+•+Computer+Science;Architecting+AI+Smart+Gym+Mirror+%26+Computer+Vision+Engines;Specialized+in+Java%2C+Python%2C+C%2B%2B%2C+React+%26+TypeScript" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- PROFILE TELEMETRY & GRADE BADGES -->
+<!-- PROFILE TELEMETRY BADGES -->
 <p align="center">
   <a href="https://github.com/NaveenKumar3026">
-    <img src="https://img.shields.io/badge/ACADEMIC_HONOR-CGPA_9.49_/_10.0-080B16?style=for-the-badge&logo=googleclassroom&logoColor=00E5FF" alt="CGPA 9.49" />
+    <img src="https://img.shields.io/badge/DEGREE-B.E._COMPUTER_SCIENCE-080B16?style=for-the-badge&logo=codecademy&logoColor=00E5FF" alt="B.E. Computer Science" />
   </a>
   <a href="https://github.com/NaveenKumar3026">
     <img src="https://img.shields.io/badge/INSTITUTION-MIT_ANNA_UNIVERSITY-080B16?style=for-the-badge&logo=academia&logoColor=3B82F6" alt="MIT Anna University" />
@@ -34,7 +34,7 @@
     <img src="https://img.shields.io/badge/GitHub-NaveenKumar3026-10172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/naveen-kumar-mit" target="_blank">
+  <a href="https://www.linkedin.com/in/naveen-kumar191206/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
@@ -54,7 +54,7 @@
 <br/>
 
 <!-- ========================================== -->
-<!-- 01. SYSTEM OVERVIEW // ABOUT ME & GRADES   -->
+<!-- 01. SYSTEM OVERVIEW // ABOUT ME            -->
 <!-- ========================================== -->
 <img src="./assets/header-about.svg" alt="System Overview" width="100%" />
 
@@ -64,24 +64,20 @@
 identity: Naveen Kumar S
 institution: Madras Institute of Technology (MIT), Anna University
 degree: Bachelor of Engineering (B.E.) in Computer Science and Engineering
-academic_performance:
-  cgpa: "9.49 / 10.0 (Top Tier Academic Standing)"
-  class_12_hsc: "97.33% (School Topper • 100/100 Centum in Mathematics)"
-  class_10_sslc: "96.60% (School Topper • Centum in Mathematics & Science)"
-focus_domains: [Computer Vision & AI, Full-Stack Development, System Architecture, Algorithms]
+focus_domains: [Computer Vision, Full-Stack Development, Distributed Backends, Kernel Systems]
 engineering_ethos: "Algorithmic precision, real-time edge intelligence, and resilient system design."
 ```
 
-I am a Software Engineer and Computer Science Scholar at the **Madras Institute of Technology (MIT), Anna University**, maintaining a **9.49 CGPA**. I bridge rigorous algorithmic foundations with practical, high-impact software engineering—spanning **computer vision & AI systems**, **full-stack web platforms**, and **scalable backend services**.
+I am a Software Engineer and Computer Science Scholar at the **Madras Institute of Technology (MIT), Anna University**. I bridge algorithmic foundations with practical, high-impact software engineering spanning **computer vision**, **network security intelligence**, **kernel operating systems**, and **scalable full-stack platforms**.
 
-Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose estimation**, building **cyber threat investigation monorepos with SSRF hardening**, or optimizing **C++ graph algorithms**, I build software focused on determinism, zero-latency feedback, and architectural clean code.
+Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose estimation**, authoring **threat defense pipelines with SSRF hardening**, or optimizing **xv6 kernel CPU scheduling**, I build software focused on determinism, low-latency execution, and clean architectural design.
 
-### 🎓 Academic Excellence & Track Record
+### Engineering Focus & Academic Foundation
 
-- 🏆 **Madras Institute of Technology (MIT):** B.E. in Computer Science and Engineering — **CGPA: 9.49 / 10.0**
-- 🥇 **Class 12 (HSC) School Topper:** **97.33%** with a perfect **100/100 Centum in Mathematics**.
-- 🥇 **Class 10 (SSLC) School Topper:** **96.60%** with **Centums in Mathematics & Science**.
-- 💡 **Consistent Analytical Excellence:** Deep-rooted mathematical and logical problem-solving abilities applied directly to software development.
+- **Madras Institute of Technology (MIT):** Pursuing B.E. in Computer Science and Engineering with a deep foundation in systems programming, operating systems, networks, and algorithms.
+- **Computer Vision & Edge AI:** Architecting real-time pose estimation, skeletal landmark tracking, and kinematic feedback engines for interactive edge hardware.
+- **Full-Stack Systems:** Developing type-safe web architectures, API gateways, and responsive user interfaces.
+- **Algorithmic Discipline:** Applying Data Structures, Graph Algorithms, and modular design patterns across production environments.
 
 <br/>
 
@@ -101,7 +97,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 <table>
   <tr>
     <td width="30%" valign="top">
-      <b>💻 PROGRAMMING LANGUAGES</b>
+      <b>PROGRAMMING LANGUAGES</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
@@ -117,7 +113,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   </tr>
   <tr>
     <td width="30%" valign="top">
-      <b>👁️ AI &amp; COMPUTER VISION</b>
+      <b>AI &amp; COMPUTER VISION</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
@@ -129,7 +125,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   </tr>
   <tr>
     <td width="30%" valign="top">
-      <b>⚙️ BACKEND &amp; SYSTEMS</b>
+      <b>BACKEND &amp; SYSTEMS</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
@@ -142,7 +138,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   </tr>
   <tr>
     <td width="30%" valign="top">
-      <b>🎨 FRONTEND &amp; UI ENGINEERING</b>
+      <b>FRONTEND &amp; UI ENGINEERING</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
@@ -155,7 +151,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   </tr>
   <tr>
     <td width="30%" valign="top">
-      <b>🗄️ DATABASES &amp; STORAGE</b>
+      <b>DATABASES &amp; STORAGE</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -166,13 +162,14 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   </tr>
   <tr>
     <td width="30%" valign="top">
-      <b>🛠️ TOOLS &amp; ARCHITECTURE</b>
+      <b>TOOLS &amp; INFRASTRUCTURE</b>
     </td>
     <td width="70%">
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
       <img src="https://img.shields.io/badge/Linux_/_Bash-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
       <img src="https://img.shields.io/badge/Zod_Validation-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
     </td>
   </tr>
@@ -187,14 +184,14 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 <br/>
 
 <!-- ========================================== -->
-<!-- 03. FEATURED ENGINEERING SHOWCASE          -->
+<!-- 03. FLAGSHIP BUILDS                        -->
 <!-- ========================================== -->
-<img src="./assets/header-projects.svg" alt="Featured Builds" width="100%" />
+<img src="./assets/header-projects.svg" alt="Flagship Builds" width="100%" />
 
 <br/>
 
 <!-- PROJECT 1: AI SMART GYM MIRROR -->
-### 01. AI Smart Gym Mirror — Vision-Powered Workout & Form Correction Engine
+### 01. [AI Smart Gym Mirror](https://github.com/NaveenKumar3026)
 > **Architecture:** Python • OpenCV • MediaPipe Pose Estimation • React 18 • WebSocket • Node.js • Tailwind CSS • Glassmorphic HUD
 
 ```
@@ -205,58 +202,53 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
     (Glassmorphic UI)           (Concentric / Eccentric Curve)           (Injury Prevention)
 ```
 
-- **Core Problem:** Improper posture during strength training causes acute musculoskeletal strain, joint wear, and training fatigue without an expert trainer present.
-- **Architectural Solution:** Built an intelligent interactive gym mirror system combining computer vision, skeletal joint tracking, and edge AI to analyze exercises in real time.
+- **Problem:** Improper biomechanics during strength training cause acute musculoskeletal strain, joint wear, and training fatigue without an expert trainer present.
+- **Solution:** Built an interactive gym mirror combining computer vision, skeletal joint tracking, and edge AI to analyze exercises in real time.
 - **Key Engineering Features:**
   - **3D Landmark Pose Estimation:** Evaluates 33 body landmarks via high-frequency camera streams to calculate real-time joint angles for squats, lunges, curls, and presses.
-  - **Dynamic Biomechanical Correction:** Detects form deviations (e.g., knee collapse, spinal rounding, unequal extension) and generates instantaneous audio/visual corrections.
+  - **Dynamic Biomechanical Correction:** Detects form deviations (knee collapse, spinal rounding, unequal extension) and generates instantaneous audio/visual corrections.
   - **Concentric & Eccentric Repetition Tracking:** State-machine algorithm measuring inflection thresholds to guarantee accurate rep counts with zero false positives.
-  - **Futuristic Glassmorphic Mirror HUD:** High-contrast, glare-optimized dark interface displaying velocity metrics, set timers, and joint angle telemetry over the user's mirror reflection.
+  - **Glassmorphic Mirror HUD:** High-contrast, glare-optimized dark interface displaying velocity metrics, set timers, and joint angle telemetry over the mirror reflection.
 
 <br/>
 
-<!-- PROJECT 2: SHIELDAI / TRUTHLENS -->
-### 02. ShieldAI (TruthLens) — AI-Powered Digital Threat & Scam Investigation Monorepo
+<!-- PROJECT 2: SHIELD AI -->
+### 02. [Shield AI](https://github.com/NaveenKumar3026)
 > **Architecture:** TypeScript Monorepo • Node.js • Express • Prisma ORM • React • Vite • Tailwind CSS • Zod • Docker
 
 - **Domain:** Cyber Defense, Anti-Fraud & Scam Investigation.
-- **Architectural Solution:** An investigative digital platform that inspects suspicious links, deceptive recruitment offers, predatory contracts, and fraudulent messages like a forensic case file.
+- **Solution:** An investigative digital platform that inspects suspicious links, deceptive recruitment offers, predatory contracts, and fraudulent messages like a forensic case file.
 - **Key Engineering Features:**
   - **TruthLens Risk Engine:** Pairs deterministic heuristic signal extraction with explainable AI reasoning for transparent fraud scoring.
   - **SSRF-Hardened Security:** Built-in network safeguards preventing Server-Side Request Forgery by isolating untrusted inputs and blocking internal subnets.
   - **Type-Safe Domain Monorepo:** Shared TypeScript types and Zod schemas across microservices ensuring absolute contract integrity.
-- 🔗 **Explore Repository:** [Shield-AI on GitHub](https://github.com/NaveenKumar3026)
 
 <br/>
 
-<!-- PROJECT 3, 4, 5 GRID -->
+<!-- PROJECTS 3, 4, 5, 6 GRID -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>03. MitiMUN Hub</h3>
-      <p><b>Stack:</b> React 18 • TypeScript • Vite • Tailwind CSS • TanStack Query • Recharts</p>
+      <h3>03. <a href="https://github.com/NaveenKumar3026/MitiMUN">MitiMUN</a></h3>
+      <p><b>Architecture:</b> React 18 • TypeScript • Vite • Tailwind CSS • TanStack Query • Recharts</p>
       <p>A mission-critical event management and delegate conference platform engineered for Model United Nations conventions. Features dynamic delegate registries, committee allocation workflows, live agenda management, and real-time voting data visualization.</p>
-      <a href="https://github.com/NaveenKumar3026/MitiMUN"><b>View Codebase &rarr;</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>04. C++ DSA &amp; Algorithmic Engine</h3>
-      <p><b>Stack:</b> Modern C++ • Data Structures • Graph Algorithms</p>
-      <p>Curated implementations of high-efficiency Data Structures and Algorithms: advanced sorting (Counting, Heap, Merge Sort), graph traversals, and balanced tree representations optimized for zero-overhead execution and competitive programming.</p>
-      <a href="https://github.com/NaveenKumar3026/C-DSA-programming-files"><b>View Codebase &rarr;</b></a>
+      <h3>04. <a href="https://github.com/NaveenKumar3026">Evoverse</a></h3>
+      <p><b>Architecture:</b> Python • Simulation Engine • Multi-Agent Modeling • Genetic Algorithms • WebGL</p>
+      <p>An evolutionary computing and artificial life simulator modeling entity survival, dynamic neural adaptation, genetic crossover, mutation rates, and ecological equilibrium across real-time multi-agent environments.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>05. Course Registration Platform</h3>
-      <p><b>Stack:</b> HTML5 • CSS3 • JavaScript • Responsive UI</p>
-      <p>Academic course enrollment and validation portal enabling seamless student course browsing, quota availability checks, and conflict-free schedule registration.</p>
-      <a href="https://github.com/NaveenKumar3026/Course-Registration-System-Frontend"><b>View Codebase &rarr;</b></a>
+      <h3>05. <a href="https://github.com/NaveenKumar3026">NetShield AI</a></h3>
+      <p><b>Architecture:</b> Python • C++ • Packet Inspection • Machine Learning • FastAPI • Linux Sockets</p>
+      <p>An intelligent network intrusion detection and threat mitigation engine. Executes deep packet inspection, real-time signature matching, and machine learning anomaly classification to intercept malicious protocol anomalies and DDoS vectors.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>06. Quiz &amp; Evaluation Engine</h3>
-      <p><b>Stack:</b> C++ • Object-Oriented Design • System Timer</p>
-      <p>Interactive console quiz system built on strict OOP principles (encapsulation, abstraction) with multi-threaded countdown timers, categorized question banks, and instantaneous scoring.</p>
-      <a href="https://github.com/NaveenKumar3026"><b>View Codebase &rarr;</b></a>
+      <h3>06. <a href="https://github.com/NaveenKumar3026">Adaptive Intelligence xv6</a></h3>
+      <p><b>Architecture:</b> C • xv6 Unix Kernel • x86 Assembly • QEMU Emulation</p>
+      <p>An operating systems kernel engineering project enhancing MIT xv6 with an intelligent multi-level feedback queue (MLFQ) scheduler that adaptively reprioritizes CPU cycles based on process I/O and compute workloads.</p>
     </td>
   </tr>
 </table>
@@ -321,21 +313,21 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>👁️ Real-Time Computer Vision &amp; Kinematics</h4>
+      <h4>Real-Time Computer Vision &amp; Kinematics</h4>
       <p>Researching sub-millisecond edge pose tracking, multi-camera angle fusion, and biomechanical velocity analytics using <b>Python, OpenCV, and MediaPipe</b>.</p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ High-Throughput Java &amp; Spring Boot Architecture</h4>
-      <p>Mastering distributed transactional patterns, modular monoliths, caching layers, and high-concurrency database connection pooling.</p>
+      <h4>Kernel Engineering &amp; Operating Systems</h4>
+      <p>Deep-diving into low-level CPU scheduler algorithms, virtual memory paging, system-call instrumentation, and kernel concurrency patterns in <b>C and xv6</b>.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 Advanced Data Structures &amp; Problem Solving</h4>
-      <p>Deep-diving into dynamic programming, graph theory, segment trees, and competitive algorithmic problem solving in <b>C++ and Java</b>.</p>
+      <h4>Advanced Data Structures &amp; Algorithms</h4>
+      <p>Mastering dynamic programming, graph theory, segment trees, and competitive algorithmic problem solving in <b>C++ and Java</b>.</p>
     </td>
     <td width="50%" valign="top">
-      <h4>🛡️ Secure Full-Stack Application Design</h4>
+      <h4>Secure Full-Stack Application Design</h4>
       <p>Hardening web APIs against OWASP vulnerabilities, SSRF mitigation, strict type validation (Zod), and token-based authentication.</p>
     </td>
   </tr>
@@ -367,7 +359,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
     <img src="https://img.shields.io/badge/EMAIL-naveen3026mit@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Naveen" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/naveen-kumar-mit" target="_blank">
+  <a href="https://www.linkedin.com/in/naveen-kumar191206/" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-Naveen_Kumar_S-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
@@ -384,7 +376,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 <br/>
 
 <p align="center">
-  <sub>⚡ Designed with glassomorphic cyberpunk precision &bull; Engineered by <b>Naveen Kumar S</b> &bull; Madras Institute of Technology (MIT) &copy; 2026</sub>
+  <sub>Designed with glassomorphic cyberpunk precision &bull; Engineered by <b>Naveen Kumar S</b> &bull; Madras Institute of Technology (MIT) &copy; 2026</sub>
 </p>
 
 </div>

@@ -12,6 +12,13 @@
       <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Traveling Laser Pulse Gradient -->
+    <linearGradient id="laserPulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
     <filter id="divGlow" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
@@ -22,6 +29,23 @@
   </defs>
 
   <style>
+    @keyframes laserRun {
+      0% { transform: translateX(0px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateX(780px); opacity: 0; }
+    }
+    @keyframes centerBlink {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.08); }
+    }
+    .div-laser {
+      animation: laserRun 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .div-center {
+      transform-origin: 430px 12px;
+      animation: centerBlink 2.4s ease-in-out infinite;
+    }
     .div-mono {
       font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace;
       font-size: 9px;
@@ -30,23 +54,32 @@
     }
   </style>
 
-  <!-- Left Line -->
+  <!-- Left Base Line -->
   <line x1="40" y1="12" x2="380" y2="12" stroke="url(#divGradLeft)" stroke-width="1.5"/>
   <circle cx="380" cy="12" r="2.5" fill="#00E5FF" filter="url(#divGlow)"/>
 
-  <!-- Center HUD Diamond & Text -->
-  <g transform="translate(430, 12)">
-    <polygon points="-36,-8 -44,0 -36,8 -28,0" fill="#0c1224" stroke="#00E5FF" stroke-width="1.2"/>
-    <circle cx="-36" cy="0" r="2" fill="#00E5FF"/>
-
-    <rect x="-20" y="-9" width="40" height="18" rx="4" fill="#080B16" stroke="#3B82F6" stroke-width="1"/>
-    <text x="0" y="3.5" class="div-mono" fill="#F8FAFC" text-anchor="middle">&lt; / &gt;</text>
-
-    <polygon points="36,-8 28,0 36,8 44,0" fill="#0c1224" stroke="#A855F7" stroke-width="1.2"/>
-    <circle cx="36" cy="0" r="2" fill="#A855F7"/>
+  <!-- Traveling Animated Laser Beam -->
+  <g clip-path="url(#dividerClip)">
+    <rect x="40" y="10.5" width="120" height="3" fill="url(#laserPulseGrad)" class="div-laser" filter="url(#divGlow)"/>
   </g>
 
-  <!-- Right Line -->
+  <!-- Center HUD Diamond & Text -->
+  <g class="div-center">
+    <polygon points="394,4 386,12 394,20 402,12" fill="#0c1224" stroke="#00E5FF" stroke-width="1.2"/>
+    <circle cx="394" cy="12" r="2" fill="#00E5FF"/>
+
+    <rect x="410" y="3" width="40" height="18" rx="4" fill="#080B16" stroke="#3B82F6" stroke-width="1"/>
+    <text x="430" y="15.5" class="div-mono" fill="#F8FAFC" text-anchor="middle">&lt; / &gt;</text>
+
+    <polygon points="466,4 458,12 466,20 474,12" fill="#0c1224" stroke="#A855F7" stroke-width="1.2"/>
+    <circle cx="466" cy="12" r="2" fill="#A855F7"/>
+  </g>
+
+  <!-- Right Base Line -->
   <circle cx="480" cy="12" r="2.5" fill="#A855F7" filter="url(#divGlow)"/>
   <line x1="480" y1="12" x2="820" y2="12" stroke="url(#divGradRight)" stroke-width="1.5"/>
+
+  <clipPath id="dividerClip">
+    <rect x="40" y="10" width="780" height="4"/>
+  </clipPath>
 </svg>
