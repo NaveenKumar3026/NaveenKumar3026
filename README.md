@@ -145,7 +145,6 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
       <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
       <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
       <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-      <img src="https://img.shields.io/badge/Material_UI_(MUI)-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="MUI" />
       <img src="https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Recharts" />
     </td>
   </tr>
@@ -154,10 +153,11 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
       <b>DATABASES &amp; STORAGE</b>
     </td>
     <td width="70%">
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Oracle_DB-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
       <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query" />
     </td>
   </tr>
   <tr>
@@ -230,7 +230,7 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   <tr>
     <td width="50%" valign="top">
       <h3>03. <a href="https://github.com/NaveenKumar3026/MitiMUN">MitiMUN</a></h3>
-      <p><b>Architecture:</b> React 18 • TypeScript • Vite • Tailwind CSS • TanStack Query • Recharts</p>
+      <p><b>Architecture:</b> React 18 • TypeScript • Vite • Tailwind CSS • Recharts</p>
       <p>A mission-critical event management and delegate conference platform engineered for Model United Nations conventions. Features dynamic delegate registries, committee allocation workflows, live agenda management, and real-time voting data visualization.</p>
     </td>
     <td width="50%" valign="top">
