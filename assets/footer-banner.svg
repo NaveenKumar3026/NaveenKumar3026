@@ -80,7 +80,7 @@
   <!-- Central Motivational / Engineering Statement -->
   <g transform="translate(170, 48)">
     <text x="0" y="20" class="hud-quote" font-size="15" font-weight="600" fill="#F8FAFC" letter-spacing="0.5">
-      &ldquo;Architecting resilient distributed backends, intelligent data loops, and high-fidelity user experiences.&rdquo;
+      &ldquo;Architecting real-time edge intelligence, robust software pipelines, and high-fidelity user experiences.&rdquo;
     </text>
 
     <!-- Sub Telemetry Status -->
@@ -94,7 +94,7 @@
     <!-- Bottom Metadata -->
     <g transform="translate(0, 72)">
       <text x="0" y="10" class="mono-footer" font-size="9.5" fill="#64748B" letter-spacing="1">
-        NAVEEN KUMAR &bull; CHENNAI, INDIA &bull; MADRAS INSTITUTE OF TECHNOLOGY (MIT) &bull; 2026
+        NAVEEN KUMAR S &bull; CGPA: 9.49 &bull; MADRAS INSTITUTE OF TECHNOLOGY (MIT) &bull; CHENNAI, INDIA
       </text>
     </g>
   </g>
