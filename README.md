@@ -275,12 +275,13 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/NaveenKumar3026">
-        <img src="https://github-readme-stats.vercel.app/api?username=NaveenKumar3026&show_icons=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&hide_border=false&border_color=00E5FF44&bg_color=080B16&title_color=00E5FF&icon_color=3B82F6&text_color=F8FAFC&rank_icon=github" alt="Naveen's GitHub Stats - PRs & Commits" width="98%" />
+        <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NaveenKumar3026&theme=rose_pine" alt="GitHub statistics" />
+
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/NaveenKumar3026">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenKumar3026&layout=compact&theme=tokyonight&hide_border=false&border_color=00E5FF44&bg_color=080B16&title_color=00E5FF&text_color=F8FAFC" alt="Most Used Languages" width="98%" />
+       <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NaveenKumar3026&theme=rose_pine" alt="Most committed languages" />
       </a>
     </td>
   </tr>
