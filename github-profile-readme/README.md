@@ -270,15 +270,10 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 
 <div align="center">
 
-<!-- GITHUB PROFILE SUMMARY CARDS (2x2 GRID) -->
+<!-- GITHUB PROFILE SUMMARY CARDS -->
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NaveenKumar3026&theme=tokyonight" alt="GitHub Stats" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NaveenKumar3026&theme=tokyonight" alt="Top Languages by Repo" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NaveenKumar3026&theme=tokyonight" alt="Most Committed Languages" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NaveenKumar3026&theme=tokyonight&utcOffset=5.5" alt="Productive Time Commits" />
 </p>
 
 <br/>
