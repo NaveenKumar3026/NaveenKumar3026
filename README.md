@@ -270,28 +270,25 @@ Whether developing an **AI Smart Gym Mirror with real-time biomechanical pose es
 
 <div align="center">
 
-<!-- SIDE BY SIDE STATS: INCLUDING ALL COMMITS, PRS & MERGED STATS -->
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/NaveenKumar3026">
-        <img src="https://github-readme-stats.vercel.app/api?username=NaveenKumar3026&show_icons=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&hide_border=false&border_color=00E5FF44&bg_color=080B16&title_color=00E5FF&icon_color=3B82F6&text_color=F8FAFC&rank_icon=github" alt="Naveen's GitHub Stats - PRs & Commits" width="98%" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/NaveenKumar3026">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenKumar3026&layout=compact&theme=tokyonight&hide_border=false&border_color=00E5FF44&bg_color=080B16&title_color=00E5FF&text_color=F8FAFC" alt="Most Used Languages" width="98%" />
-      </a>
-    </td>
-  </tr>
-</table>
+<!-- GITHUB PROFILE SUMMARY CARDS (2x2 GRID) -->
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NaveenKumar3026&theme=tokyonight" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NaveenKumar3026&theme=tokyonight" alt="Top Languages by Repo" />
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NaveenKumar3026&theme=tokyonight" alt="Most Committed Languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NaveenKumar3026&theme=tokyonight&utcOffset=5.5" alt="Productive Time Commits" />
+</p>
 
 <br/>
 
 <!-- CONTRIBUTION STREAK: ACTIVE DAYS & LONGEST STREAK -->
-<a href="https://github.com/NaveenKumar3026">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NaveenKumar3026&theme=tokyonight&hide_border=false&border=00E5FF44&background=080B16&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Active Days & Contribution Streak" width="100%" />
-</a>
+<p align="center">
+  <a href="https://github.com/NaveenKumar3026">
+    <img width="98%" src="https://streak-stats.demolab.com?user=NaveenKumar3026&theme=tokyonight&hide_border=false&border=00E5FF44&background=080B16&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Active Days & Contribution Streak" />
+  </a>
+</p>
 
 </div>
 
